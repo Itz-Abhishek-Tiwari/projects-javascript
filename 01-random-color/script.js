@@ -47,7 +47,7 @@ const hexCode = (combinehex) => {
 
 let btn = document.querySelector("#btn");
 let hexShow = document.querySelector(".color");
-btn.addEventListener("click", function () {
+btn.addEventListener("mouseover", function () {
   const random = hexCode(combinehex1);
   document.body.style.backgroundColor = random;
   hexShow.textContent = random;
